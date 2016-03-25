@@ -32,7 +32,14 @@
     <ClCompile Include="..\..\luasocket-uwp\libluasocket\except.c" />
     <ClCompile Include="..\..\luasocket-uwp\libluasocket\inet.c" />
     <ClCompile Include="..\..\luasocket-uwp\libluasocket\io.c" />
-    <ClCompile Include="..\..\luasocket-uwp\libluasocket\luasocket.c" />
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\luasocket.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_c</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_c</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)%(Filename)_c</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)%(Filename)_c</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)%(Filename)_c</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)%(Filename)_c</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\..\luasocket-uwp\libluasocket\mime.c" />
     <ClCompile Include="..\..\luasocket-uwp\libluasocket\options.c" />
     <ClCompile Include="..\..\luasocket-uwp\libluasocket\select.c" />
@@ -40,7 +47,14 @@
     <ClCompile Include="..\..\luasocket-uwp\libluasocket\timeout.c" />
     <ClCompile Include="..\..\luasocket-uwp\libluasocket\udp.c" />
     <ClCompile Include="..\..\luasocket-uwp\libluasocket\wsocket.c" />
-    <ClCompile Include="..\..\luasocket-uwp\luasocket.cpp" />
+    <ClCompile Include="..\..\luasocket-uwp\luasocket.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)_cpp</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)_cpp</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)%(Filename)_cpp</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)%(Filename)_cpp</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)%(Filename)_cpp</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)%(Filename)_cpp</ObjectFileName>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\luasocket-uwp\libluasocket\auxiliar.h" />
