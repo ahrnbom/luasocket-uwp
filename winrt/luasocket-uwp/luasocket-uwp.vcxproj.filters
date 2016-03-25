@@ -13,9 +13,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\luasocket-uwp\luasocket.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\luasocket-uwp\libluasocket\tcp.c">
       <Filter>src\libluasocket</Filter>
     </ClCompile>
@@ -57,9 +54,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\luasocket-uwp\luasocket.h">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\luasocket-uwp\libluasocket\socket.lua.h">
       <Filter>src\libluasocket</Filter>
     </ClInclude>
