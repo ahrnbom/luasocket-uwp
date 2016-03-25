@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{82757242-29d1-4b82-b19e-74fc2f1d9769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libluasocket">
+      <UniqueIdentifier>{e9157b6c-72b8-4133-9baa-39ce4f0b8df1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\luasocket-uwp\luasocket.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\tcp.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\timeout.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\udp.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\unix.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\usocket.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\wsocket.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\auxiliar.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\buffer.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\except.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\inet.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\io.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\luasocket.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\mime.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\options.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\luasocket-uwp\libluasocket\select.c">
+      <Filter>src\libluasocket</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\luasocket-uwp\luasocket.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\socket.lua.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\tcp.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\timeout.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\tp.lua.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\udp.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\unix.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\url.lua.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\usocket.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\wsocket.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\auxiliar.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\buffer.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\except.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\ftp.lua.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\http.lua.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\inet.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\io.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\ltn12.lua.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\lua.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\luasocket.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\mime.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\mime.lua.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\options.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\select.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\smtp.lua.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\luasocket-uwp\libluasocket\socket.h">
+      <Filter>src\libluasocket</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\luasocket-uwp\libluasocket\tp.lua">
+      <Filter>src\libluasocket</Filter>
+    </None>
+    <None Include="..\..\luasocket-uwp\libluasocket\url.lua">
+      <Filter>src\libluasocket</Filter>
+    </None>
+    <None Include="..\..\luasocket-uwp\libluasocket\ftp.lua">
+      <Filter>src\libluasocket</Filter>
+    </None>
+    <None Include="..\..\luasocket-uwp\libluasocket\http.lua">
+      <Filter>src\libluasocket</Filter>
+    </None>
+    <None Include="..\..\luasocket-uwp\libluasocket\ltn12.lua">
+      <Filter>src\libluasocket</Filter>
+    </None>
+    <None Include="..\..\luasocket-uwp\libluasocket\mime.lua">
+      <Filter>src\libluasocket</Filter>
+    </None>
+    <None Include="..\..\luasocket-uwp\libluasocket\pre.lua">
+      <Filter>src\libluasocket</Filter>
+    </None>
+    <None Include="..\..\luasocket-uwp\libluasocket\smtp.lua">
+      <Filter>src\libluasocket</Filter>
+    </None>
+    <None Include="..\..\luasocket-uwp\libluasocket\socket.lua">
+      <Filter>src\libluasocket</Filter>
+    </None>
+  </ItemGroup>
+</Project>
