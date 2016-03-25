@@ -25,12 +25,6 @@
     <ClCompile Include="..\..\luasocket-uwp\libluasocket\udp.c">
       <Filter>src\libluasocket</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\luasocket-uwp\libluasocket\unix.c">
-      <Filter>src\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\luasocket-uwp\libluasocket\usocket.c">
-      <Filter>src\libluasocket</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\luasocket-uwp\libluasocket\wsocket.c">
       <Filter>src\libluasocket</Filter>
     </ClCompile>
@@ -81,13 +75,7 @@
     <ClInclude Include="..\..\luasocket-uwp\libluasocket\udp.h">
       <Filter>src\libluasocket</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\luasocket-uwp\libluasocket\unix.h">
-      <Filter>src\libluasocket</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\luasocket-uwp\libluasocket\url.lua.h">
-      <Filter>src\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\luasocket-uwp\libluasocket\usocket.h">
       <Filter>src\libluasocket</Filter>
     </ClInclude>
     <ClInclude Include="..\..\luasocket-uwp\libluasocket\wsocket.h">

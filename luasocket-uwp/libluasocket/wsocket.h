@@ -10,7 +10,8 @@
 /*=========================================================================*\
 * WinSock include files
 \*=========================================================================*/
-#include <winsock.h>
+#include <winsock2.h>
+#include <Ws2tcpip.h>
 
 typedef int socklen_t;
 typedef SOCKET t_socket;
